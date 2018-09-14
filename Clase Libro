@@ -1,0 +1,60 @@
+package tareaprogramada1;
+
+public class Libro {
+    //stributos de la clase
+    private String issn;
+    private String nombre;
+    private String tema;
+    private String descripcion;
+    private int cantidadVendida;
+    private int cantidadDispobible;
+    private int precio;
+    //FOTO////////////////    
+    
+    //constructores
+
+    public Libro() {
+    }
+    
+    
+    public Libro(String issn, String nombre, String tema, String descripcion, int cantidadVendida, int cantidadDispobible, int precio) {
+        this.issn = issn;
+        this.nombre = nombre;
+        this.tema = tema;
+        this.descripcion = descripcion;
+        this.cantidadVendida = cantidadVendida;
+        this.cantidadDispobible = cantidadDispobible;
+        this.precio = precio;
+    }
+    
+    //metodos get
+    public String getIssn() {return issn;}
+
+    public String getNombre() {return nombre;}
+
+    public String getTema() {return tema;}
+
+    public String getDescripcion() {return descripcion;}
+
+    public int getCantidadVendida() {return cantidadVendida;}
+
+    public int getCantidadDispobible() {return cantidadDispobible;}
+
+    public int getPrecio() {return precio;}
+    
+    //metodos set
+
+    public void setIssn(String issn) {this.issn = issn;}
+
+    public void setNombre(String nombre) {this.nombre = nombre;}
+
+    public void setTema(String tema) {this.tema = tema;}
+
+    public void setDescripcion(String descripcion) {this.descripcion = descripcion;}
+
+    public void setCantidadVendida(int cantidadVendida) {this.cantidadVendida = cantidadVendida;}
+
+    public void setCantidadDispobible(int cantidadDispobible) {this.cantidadDispobible = cantidadDispobible;}
+
+    public void setPrecio(int precio) {this.precio = precio;
+    }
